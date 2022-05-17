@@ -8,7 +8,7 @@
     height: 100vh;
     position: relative;
     overflow: hidden;
-    background: linear-gradient(to right, #7d1aad, yellow);
+    background: linear-gradient(to right, yellow, greenyellow);
 }
 nav{
     width: 97%;
@@ -23,7 +23,7 @@ nav{
    flex-basis: 5%;
 }
 .logo img{
-    width: 150px;
+    width: 180px;
 }
 .nav-links{
      flex: 1;
@@ -57,12 +57,12 @@ nav{
     transition: 1s;
 }
 .feat img{
-    width: 120px;
+    width: 170px;
 }
 .feat{
     position: absolute;
     display: flex;
-    color: #26e8b3;
+    color: #0d5ea4;
 }
 .feat div{
     margin: 20px;
@@ -72,21 +72,21 @@ nav{
 }
 .one{
     top: 450px;
-    right: 50px;
+    right: 1px;
 }
 .two{
-    top: 150px;
-    left: 350px;
+    top: 135px;
+    left: 330px;
     transform: rotate(-90deg);
 }
 .three{
     bottom: 450px;
-    left: 30px;
+    left: 1px;
     transform: rotate(-180deg);
 }
 .four{
     bottom: 100px;
-    right: 350px;
+    right: 280px;
     transform: rotate(-270deg);
 }
 .car{
@@ -104,7 +104,7 @@ nav{
     transform: translateY(-50%);
     text-align: center;
 }
-.controls h3{
+.controls h2{
     margin: 15px 0;
     color: #1ae51a;
 }
@@ -120,10 +120,10 @@ nav{
 .overlay{
     width: 0;
     height: 0;
-    border-top: 500px solid #26e8b3;
-    border-left: 500px solid #26e8b3;
+    border-top: 500px solid #0d5ea4;
+    border-left: 500px solid #0d5ea4;
     border-right: 500px solid transparent;
-    border-bottom: 500px solid #26e8b3;
+    border-bottom: 500px solid #0d5ea4;
     position: absolute;
     left: 0;
     top: 0;
