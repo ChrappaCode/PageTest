@@ -10,3 +10,31 @@
     overflow: hidden;
     background: linear-gradient(to right, #7d1aad, #26e8b3);
 }
+nav{
+    width: 97%;
+    position: sticky;
+    margin: 5px 25px;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+   flex-basis: 5%;
+}
+.logo img{
+    width: 150px;
+}
+.nav-links{
+     flex: 1;
+     text-align: right;
+ }
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px ;
+}
+.nav-links ul li a{
+    color: rebeccapurple;
+    text-decoration: none;
+}
