@@ -16,7 +16,7 @@
                 <ul>
                     <li><a href="#">Home</a></li>
                     <li><a href="#">Phone</a></li>
-                    <li><a href="#">Mail</a></li>
+                    <li><a href="#" id="Mail">Mail</a></li>
                     <li><a href="#">Accessories</a></li>
                 </ul>
             </div>
@@ -74,8 +74,14 @@
         var upBtn = document.getElementById("upBtn");
         var downBtn = document.getElementById("downBtn");
 
+        var mailBtn = document.getElementById("Mail")
+
         var rotateVal = circle.style.transform;
         var rotateSum;
+
+        mailBtn.onclick = function (){
+            <div><h3>kubino321@gmail.com</h3></div>
+        }
 
         upBtn.onclick = function (){
             rotateSum = rotateVal + "rotate(-90deg)";
