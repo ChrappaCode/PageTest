@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Jeep</title>
     <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
     <div class="main">
@@ -73,6 +74,9 @@
     </div>
 
     <script>
+
+        var global = 0;
+
         var circle = document.getElementById("circle");
         var upBtn = document.getElementById("upBtn");
         var downBtn = document.getElementById("downBtn");
@@ -97,7 +101,14 @@
 
     <script>
         function myFunction() {
-            document.getElementById('demo').style.display='block'
+            if(global%2 === 0){
+                document.getElementById('demo').style.display='block';
+                global++;
+            }
+            else{
+                document.getElementById('demo').style.display='none';
+                global++;
+            }
         }
     </script>
 
