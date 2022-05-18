@@ -129,7 +129,14 @@ nav{
     left: 0;
     top: 0;
 }
-
+.email {
+    color: #dadada;
+    position: absolute;
+    right: 10%;
+    top: 10%;
+    transform: translateY(-50%);
+    text-align: center;
+}
 
 
 
