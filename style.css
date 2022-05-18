@@ -110,11 +110,11 @@ nav{
     color: #1ae51a;
 }
 #upBtn{
-    width: 15px;
+    width: 30px;
     cursor: pointer;
 }
 #downBtn{
-    width: 15px;
+    width: 30px;
     cursor: pointer;
     transform: rotate(180deg);
 }
