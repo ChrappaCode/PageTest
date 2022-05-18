@@ -107,14 +107,14 @@ nav{
 }
 .controls h2{
     margin: 15px 0;
-    color: #1ae51a;
+    color: #19c919;
 }
 #upBtn{
-    width: 30px;
+    width: 60px;
     cursor: pointer;
 }
 #downBtn{
-    width: 30px;
+    width: 60px;
     cursor: pointer;
     transform: rotate(180deg);
 }
@@ -140,7 +140,7 @@ nav{
 .phone{
     color: #dadada;
     position: absolute;
-    right: 18.2%;
+    right: 18.3%;
     top: 10%;
     transform: translateY(-50%);
     text-align: center;
