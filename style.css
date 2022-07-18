@@ -55,7 +55,7 @@ nav{
     left: 0;
     border-radius: 50%;
     transform: rotate(0deg);
-    transition: 10s;
+    transition: 2s;
 }
 .feat img{
     width: 170px;
