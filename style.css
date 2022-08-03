@@ -18,7 +18,6 @@ nav{
     display: flex;
     align-items: center;
 }
-
 .logo{
    flex-basis: 5%;
 }
