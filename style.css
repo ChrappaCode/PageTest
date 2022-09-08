@@ -134,8 +134,8 @@ nav{
     text-decoration: none;
     color: #ffffff;
     position: absolute;
-    right: 10%;
-    top: 10%;
+    right: 12%;
+    top:12%;
     transform: translateY(-50%);
     text-align: center;
 }
@@ -145,8 +145,8 @@ nav{
     color: #dadada;
     text-decoration: none;
     position: absolute;
-    right: 18.3%;
-    top: 10%;
+    right: 23.5%;
+    top: 12%;
     transform: translateY(-50%);
     text-align: center;
 }
