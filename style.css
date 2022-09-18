@@ -10,7 +10,7 @@
     background: linear-gradient(to right, yellow, #ce15a8);
 }
 nav{
-    width: 97%;
+    right: 5px;
     position: sticky;
     margin: 2px 25px;
     z-index: 1;
