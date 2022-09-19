@@ -9,9 +9,10 @@
     overflow: hidden;
     background: linear-gradient(to right, yellow, #ce15a8);
 }
-nav{
+nav {
     right: 5px;
     position: sticky;
+    top: 0;
     margin: 2px 25px;
     z-index: 1;
     display: flex;
